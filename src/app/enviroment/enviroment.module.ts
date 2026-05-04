@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { ResizableModule } from 'angular-resizable-element';
+import { TableListComponent } from '../../../src/app/table-list/table-list.component';
+import { DashboardComponent } from '../../../src/app/dashboard/dashboard.component';
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
@@ -16,6 +18,8 @@ import {MatSelectModule} from '@angular/material/select';
 @NgModule({
   declarations: [
     EnviromentComponent,
+    TableListComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule, 
