@@ -5,6 +5,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { EnviromentComponent } from './enviroment/enviroment.component';
 
 const routes: Routes = [
+  { path: 'TableListComponent'
+     , component: EnviromentComponent },
+  { path: 'DashboardComponent'
+     , component: EnviromentComponent },
   { path: 'enviroment', component: EnviromentComponent },
   { path: '', redirectTo: '/enviroment', pathMatch: 'full' },
 ];
